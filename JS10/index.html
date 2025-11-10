@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records - JSON Mock API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Records</h1>
+    <div id="loading">Loading data...</div>
+    <div id="error" style="display: none;"></div>
+    <table id="studentTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Major</th>
+                <th>GPA</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Rows will be added here dynamically -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
