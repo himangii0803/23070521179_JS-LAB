@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seminar Schedule Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2 style="text-align:center;">Seminar Schedule</h2>
+  <table id="seminarTable">
+    <thead>
+      <tr>
+        <th rowspan="2">Day</th>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+      </tr>
+      <tr>
+        <th>Begin</th>
+        <th>End</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td class="yellow-bg">8:00 a.m.</td>
+        <td class="blue-bg" rowspan="2">5:00 p.m.</td>
+        <td rowspan="2" class="topic-cell">
+          Introduction to XML<br/>
+          Validity: DTD and Relax NG
+        </td>
+      </tr>
+      <tr>
+        <td class="yellow-bg">&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td class="yellow-bg">8:00 a.m.</td>
+        <td class="green-bg">11:00 a.m.</td>
+        <td>XPath</td>
+      </tr>
+      <tr>
+        <td class="green-bg">11:00 a.m.</td>
+        <td class="green-bg">2:00 p.m.</td>
+        <td>XSL Transformations</td>
+      </tr>
+      <tr>
+        <td class="green-bg">2:00 p.m.</td>
+        <td class="blue-bg">5:00 p.m.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td class="yellow-bg">8:00 a.m.</td>
+        <td class="green-bg">12:00 p.m.</td>
+        <td>XSL Formatting Objects</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
