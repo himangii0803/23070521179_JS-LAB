@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.timer {
+    margin-bottom: 20px;
+}
+.scheduler {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.class-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+.active {
+    background-color: lightgreen;
+}
+.upcoming {
+    background-color: lightyellow;
+}
+.past {
+    background-color: lightgray;
+}
+button {
+    margin: 5px;
+}

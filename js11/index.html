@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Timer & Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Countdown Timer & Class Scheduler</h1>
+    <div class="timer">
+        <input type="datetime-local" id="targetDate">
+        <button id="startTimer">Start</button>
+        <button id="pauseTimer">Pause</button>
+        <button id="resumeTimer">Resume</button>
+        <div id="timerDisplay">00:00:00:00</div>
+    </div>
+    <div class="scheduler">
+        <input type="text" id="newClassName" placeholder="Class Name">
+        <input type="time" id="newStart">
+        <input type="time" id="newEnd">
+        <button id="addClass">Add Class</button>
+        <div id="schedule"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
