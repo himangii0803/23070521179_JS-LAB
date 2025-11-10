@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Shop</h1>
+  </header>
+
+  <main>
+    
+    <section class="showcase">
+      <h2>Available Products</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="assets/pexels-nana-petrova-1460873293-29462087.jpg" alt="Lipstick">
+          <p>Lipstick</p>
+          <span>₹500</span>
+        </div>
+        <div class="card">
+          <img src="assets/pexels-lizzy-honey-393939457-18031848.jpg" alt="Perfume">
+          <p>Perfume</p>
+          <span>₹1500</span>
+        </div>
+        <div class="card">
+          <img src="assets/pexels-mearlywan-307951439-16378486.jpg" alt="Sunscreen">
+          <p>Sunscreen</p>
+          <span>₹2200</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section class="shop">
+      <h2>Products</h2>
+      <div class="product">
+        <p>Lipstick (₹500)</p>
+        <input type="number" min="0" value="0" data-price="500">
+      </div>
+      <div class="product">
+        <p>Perfume (₹1500)</p>
+        <input type="number" min="0" value="0" data-price="1500">
+      </div>
+      <div class="product">
+        <p>Sunscreen (₹2200)</p>
+        <input type="number" min="0" value="0" data-price="2200">
+      </div>
+      <button id="calcBtn">Calculate Bill</button>
+    </section>
+
+    
+    <section class="bill">
+      <h2>Billing Summary</h2>
+      <div id="billOutput">Enter quantities and click "Calculate Bill" button.</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shop</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
